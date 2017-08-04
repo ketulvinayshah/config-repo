@@ -1,6 +1,9 @@
 spring:
   application:
     name: product-service
+  sleuth:
+      sampler:
+        percentage: 1.0
   datasource:
     driverClassName: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/postgres
