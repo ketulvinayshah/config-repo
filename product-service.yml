@@ -57,7 +57,6 @@ server:
   port: 9091
 
 management:
-#  port: 19352
   security:
     enabled: false
 
